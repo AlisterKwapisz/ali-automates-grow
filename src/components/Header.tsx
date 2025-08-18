@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
@@ -42,6 +43,7 @@ const Header = () => {
             >
               Contact
             </a>
+            <ThemeToggle variant="header" />
             <Button variant="accent" size="sm">
               Book a call
             </Button>
@@ -76,6 +78,10 @@ const Header = () => {
                 </a>
               ))}
               <div className="flex flex-col space-y-2 px-3 pt-4">
+                <div className="flex items-center justify-between mb-2">
+                  <span className="text-sm font-medium">Theme</span>
+                  <ThemeToggle variant="header" showText />
+                </div>
                 <Button variant="outline" size="sm" className="w-full">
                   Contact
                 </Button>

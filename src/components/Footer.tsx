@@ -1,4 +1,5 @@
 import { Youtube, Instagram, ExternalLink } from "lucide-react";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 const Footer = () => {
   const links = [
@@ -53,10 +54,10 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Social */}
+          {/* Social & Theme */}
           <div>
             <h4 className="font-semibold mb-4">Follow Us</h4>
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 mb-4">
               {socialLinks.map((social) => {
                 const Icon = social.icon;
                 return (
@@ -70,6 +71,10 @@ const Footer = () => {
                   </a>
                 );
               })}
+            </div>
+            <div className="flex items-center space-x-2">
+              <span className="text-sm font-medium">Theme:</span>
+              <ThemeToggle variant="footer" showText />
             </div>
           </div>
         </div>

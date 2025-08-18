@@ -1,0 +1,58 @@
+import { Moon, Sun, Monitor } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { useTheme } from "@/hooks/use-theme";
+
+interface ThemeToggleProps {
+  variant?: "header" | "footer";
+  showText?: boolean;
+}
+
+export function ThemeToggle({ variant = "header", showText = false }: ThemeToggleProps) {
+  const { theme, setTheme, resolvedTheme } = useTheme();
+
+  const cycleTheme = () => {
+    if (theme === "light") {
+      setTheme("dark");
+    } else if (theme === "dark") {
+      setTheme("system");
+    } else {
+      setTheme("light");
+    }
+  };
+
+  const getIcon = () => {
+    if (theme === "system") {
+      return <Monitor className="h-4 w-4" />;
+    }
+    return resolvedTheme === "dark" ? <Moon className="h-4 w-4" /> : <Sun className="h-4 w-4" />;
+  };
+
+  const getLabel = () => {
+    if (theme === "system") {
+      return `System theme (${resolvedTheme})`;
+    }
+    return `${theme === "dark" ? "Dark" : "Light"} theme`;
+  };
+
+  const getText = () => {
+    if (theme === "system") return "System";
+    return theme === "dark" ? "Dark" : "Light";
+  };
+
+  const buttonVariant = variant === "header" ? "ghost" : "ghost";
+  const buttonSize = variant === "header" ? "sm" : "sm";
+
+  return (
+    <Button
+      variant={buttonVariant}
+      size={buttonSize}
+      onClick={cycleTheme}
+      aria-label={`Toggle theme. Current: ${getLabel()}`}
+      aria-pressed={false}
+      className="gap-2"
+    >
+      {getIcon()}
+      {showText && <span className="text-sm">{getText()}</span>}
+    </Button>
+  );
+}
