@@ -1,0 +1,67 @@
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Phone, Workflow, Sparkles } from "lucide-react";
+
+const OfferCards = () => {
+  const offers = [
+    {
+      icon: Phone,
+      title: "AI Voice Agents",
+      description: "Phone and web agents that answer questions, qualify leads, and send texts live while on calls",
+      cta: "See voice agent demo"
+    },
+    {
+      icon: Workflow,
+      title: "AI Workflows", 
+      description: "Lead scraping, enrichment, outreach, CRM sync, reporting, and back office automations end-to-end",
+      cta: "See workflow examples"
+    },
+    {
+      icon: Sparkles,
+      title: "Social Automation",
+      description: "Plan, create, and publish posts, auto-repurpose shorts, and move content into a knowledge base",
+      cta: "See content system"
+    }
+  ];
+
+  return (
+    <section id="work" className="py-20">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+            We do these 3 things for businesses
+          </h2>
+          <p className="text-xl text-muted-foreground">
+            Lower costs, save time, and improve efficiency
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-3 gap-8">
+          {offers.map((offer, index) => {
+            const Icon = offer.icon;
+            return (
+              <Card key={index} className="text-center group hover:shadow-lg transition-all duration-300">
+                <CardHeader className="pb-4">
+                  <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:bg-accent/20 transition-colors">
+                    <Icon className="w-6 h-6 text-accent" />
+                  </div>
+                  <CardTitle className="text-xl">{offer.title}</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-6">
+                  <p className="text-muted-foreground leading-relaxed">
+                    {offer.description}
+                  </p>
+                  <Button variant="outline" className="w-full">
+                    {offer.cta}
+                  </Button>
+                </CardContent>
+              </Card>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default OfferCards;
