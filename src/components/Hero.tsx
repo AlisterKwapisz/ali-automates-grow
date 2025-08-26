@@ -20,8 +20,10 @@ const Hero = () => {
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button variant="accent" size="lg" className="text-lg px-8 py-6">
-              Book a call
+            <Button variant="accent" size="lg" className="text-lg px-8 py-6" asChild>
+              <a href="https://calendly.com/bfyautomation/new-meeting" target="_blank" rel="noopener noreferrer">
+                Book a call
+              </a>
             </Button>
             <Button variant="outline" size="lg" className="text-lg px-8 py-6">
               <MessageCircle className="w-5 h-5 mr-2" />

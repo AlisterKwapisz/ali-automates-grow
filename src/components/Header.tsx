@@ -44,8 +44,10 @@ const Header = () => {
               Contact
             </a>
             <ThemeToggle variant="header" />
-            <Button variant="accent" size="sm">
-              Book a call
+            <Button variant="accent" size="sm" asChild>
+              <a href="https://calendly.com/bfyautomation/new-meeting" target="_blank" rel="noopener noreferrer">
+                Book a call
+              </a>
             </Button>
           </div>
 
@@ -85,8 +87,10 @@ const Header = () => {
                 <Button variant="outline" size="sm" className="w-full">
                   Contact
                 </Button>
-                <Button variant="accent" size="sm" className="w-full">
-                  Book a call
+                <Button variant="accent" size="sm" className="w-full" asChild>
+                  <a href="https://calendly.com/bfyautomation/new-meeting" target="_blank" rel="noopener noreferrer">
+                    Book a call
+                  </a>
                 </Button>
               </div>
             </div>
