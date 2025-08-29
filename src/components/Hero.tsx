@@ -10,7 +10,7 @@ const Hero = () => {
           {/* Headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight">
             Stop using Google Sheets.{" "}
-            <span className="text-primary">Get a real CRM</span> for{" "}
+            <span className="text-primary">Get an automated CRM</span> for{" "}
             <span className="text-accent">free</span>
           </h1>
 
