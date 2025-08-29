@@ -20,12 +20,12 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 20% 10%;
 
-    /* Deep blue primary - consistent across themes */
-    --primary: 220 75% 15%;
+    /* Darker blue primary - consistent across themes */
+    --primary: 220 85% 12%;
     --primary-foreground: 0 0% 98%;
 
-    /* Light blue accent - consistent across themes */
-    --accent: 200 85% 55%;
+    /* Darker accent blue - consistent across themes */
+    --accent: 220 70% 45%;
     --accent-foreground: 0 0% 98%;
 
     --secondary: 220 15% 96%;
@@ -76,12 +76,12 @@ All colors MUST be HSL.
     --popover: 220 25% 8%;
     --popover-foreground: 0 0% 95%;
 
-    /* Keep primary consistent but adjust for dark bg */
-    --primary: 200 85% 55%;
+    /* Keep primary consistent but darker */
+    --primary: 220 70% 55%;
     --primary-foreground: 220 30% 5%;
 
-    /* Accent remains consistent */
-    --accent: 200 85% 55%;
+    /* Accent darker blue for dark theme */
+    --accent: 220 65% 50%;
     --accent-foreground: 220 30% 5%;
 
     --secondary: 220 20% 15%;

@@ -2,13 +2,8 @@ import { Card } from "@/components/ui/card";
 
 const TrustStrip = () => {
   const platforms = [
-    "Make",
-    "n8n", 
-    "OpenAI",
-    "VAPI",
-    "WhatsApp Business",
-    "Instagram",
-    "TikTok"
+    "Make.com",
+    "N8n"
   ];
 
   return (
@@ -16,7 +11,7 @@ const TrustStrip = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8">
           <p className="text-muted-foreground mb-4">
-            Used by creators, startups, and local businesses
+            Tools we work with:
           </p>
         </div>
         

@@ -18,9 +18,9 @@ const OfferCards = () => {
     },
     {
       icon: Sparkles,
-      title: "Social Automation",
-      description: "Plan, create, and publish posts, auto-repurpose shorts, and move content into a knowledge base",
-      cta: "See content system"
+      title: "Custom CRM Solutions",
+      description: "CRM integrations, automated follow-ups, lead nurturing sequences, and custom database solutions",
+      cta: "See CRM examples"
     }
   ];
 

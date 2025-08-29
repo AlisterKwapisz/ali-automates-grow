@@ -5,18 +5,18 @@ const Results = () => {
   const results = [
     {
       icon: MapPin,
-      title: "Thousands of leads from maps and directories",
-      description: "with enrichment and dedupe"
+      title: "Lower operational costs",
+      description: "Reduce manual work and overhead expenses"
     },
     {
       icon: Calendar,
-      title: "365 posts prepared in minutes", 
-      description: "with templates and queues"
+      title: "Save time every week", 
+      description: "Automate repetitive tasks and processes"
     },
     {
       icon: MessageSquare,
-      title: "DM outreach at scale",
-      description: "with safe daily limits and tracking"
+      title: "Improved efficiency",
+      description: "Streamline workflows and boost productivity"
     }
   ];
 
@@ -25,10 +25,10 @@ const Results = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Results that matter
+            What we guarantee
           </h2>
           <p className="text-xl text-muted-foreground">
-            Real outcomes from our automation systems
+            Lower costs, saved time, and improved efficiency
           </p>
         </div>
 

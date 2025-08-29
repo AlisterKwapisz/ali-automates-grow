@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { MessageCircle, Youtube, Instagram } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -31,28 +31,6 @@ const Hero = () => {
             </Button>
           </div>
 
-          {/* Micro trust */}
-          <div className="flex flex-col items-center space-y-4">
-            <div className="flex items-center space-x-6 text-muted-foreground">
-              <div className="flex items-center space-x-2">
-                <Youtube className="w-5 h-5 text-red-500" />
-                <span className="text-sm">YouTube</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <div className="w-5 h-5 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center">
-                  <span className="text-white text-xs font-bold">T</span>
-                </div>
-                <span className="text-sm">TikTok</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Instagram className="w-5 h-5 text-pink-600" />
-                <span className="text-sm">Instagram</span>
-              </div>
-            </div>
-            <p className="text-sm text-muted-foreground">
-              Tutorials and builds published weekly
-            </p>
-          </div>
         </div>
       </div>
     </section>

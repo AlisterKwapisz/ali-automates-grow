@@ -9,7 +9,6 @@ const Header = () => {
   const navItems = [
     { name: "Work", href: "#work" },
     { name: "Proof", href: "#proof" },
-    { name: "Pricing", href: "#pricing" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -19,7 +18,7 @@ const Header = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-xl font-bold text-primary">Ali Automates</h1>
+            <h1 className="text-xl font-bold text-primary">BFYautomation</h1>
           </div>
 
           {/* Desktop Navigation */}
