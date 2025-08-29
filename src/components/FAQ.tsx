@@ -9,19 +9,15 @@ const FAQ = () => {
   const faqs = [
     {
       question: "What tools do you use?",
-      answer: "Make, n8n, OpenAI, WhatsApp Business, Instagram, TikTok, VAPI, and standard web scrapers where legal."
+      answer: "Make.com, N8n, OpenAI, VAPI, and standard web scrapers where legal."
     },
     {
       question: "Do you need my logins?",
-      answer: "Only with written approval and least privilege access."
+      answer: "Yes, but we make everything safe and secure, and only if you want to. If you prefer to use your own accounts, we can use those. If not, we can use our accounts, but you'll cover the expenses."
     },
     {
       question: "How fast is delivery?",
-      answer: "Most starters ship inside two weeks after access and content are ready."
-    },
-    {
-      question: "Can you train my team?",
-      answer: "Yes, live handover and SOPs included in Pro packages."
+      answer: "Depends on the size of the AI workflows or AI agents. Usually, we'll get it done within a week for smaller AI automations, but custom ones can have longer waiting times."
     }
   ];
 

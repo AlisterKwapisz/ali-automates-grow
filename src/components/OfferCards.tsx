@@ -5,22 +5,22 @@ import { Phone, Workflow, Sparkles } from "lucide-react";
 const OfferCards = () => {
   const offers = [
     {
+      number: "01",
       icon: Phone,
       title: "AI Voice Agents",
-      description: "Phone and web agents that answer questions, qualify leads, and send texts live while on calls",
-      cta: "See voice agent demo"
+      description: "Phone and web agents that answer questions, qualify leads, and send texts live while on calls"
     },
     {
+      number: "02",
       icon: Workflow,
       title: "AI Workflows", 
-      description: "Lead scraping, enrichment, outreach, CRM sync, reporting, and back office automations end-to-end",
-      cta: "See workflow examples"
+      description: "Lead scraping, enrichment, outreach, CRM sync, reporting, and automated follow-ups end-to-end"
     },
     {
+      number: "03",
       icon: Sparkles,
       title: "Custom CRM Solutions",
-      description: "CRM integrations, automated follow-ups, lead nurturing sequences, and custom database solutions",
-      cta: "See CRM examples"
+      description: "CRM integrations, automated follow-ups, lead nurturing sequences, and form-to-CRM connections"
     }
   ];
 
@@ -40,20 +40,22 @@ const OfferCards = () => {
           {offers.map((offer, index) => {
             const Icon = offer.icon;
             return (
-              <Card key={index} className="text-center group hover:shadow-lg transition-all duration-300">
+              <Card key={index} className="text-center group hover:shadow-lg transition-all duration-300 relative">
                 <CardHeader className="pb-4">
-                  <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:bg-accent/20 transition-colors">
+                  <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                    <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center text-white text-sm font-bold">
+                      {offer.number}
+                    </div>
+                  </div>
+                  <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4 mt-4 group-hover:bg-accent/20 transition-colors">
                     <Icon className="w-6 h-6 text-accent" />
                   </div>
                   <CardTitle className="text-xl">{offer.title}</CardTitle>
                 </CardHeader>
-                <CardContent className="space-y-6">
+                <CardContent>
                   <p className="text-muted-foreground leading-relaxed">
                     {offer.description}
                   </p>
-                  <Button variant="outline" className="w-full">
-                    {offer.cta}
-                  </Button>
                 </CardContent>
               </Card>
             );

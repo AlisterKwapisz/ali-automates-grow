@@ -3,7 +3,6 @@ import Hero from "@/components/Hero";
 import TrustStrip from "@/components/TrustStrip";
 import OfferCards from "@/components/OfferCards";
 import Results from "@/components/Results";
-import Process from "@/components/Process";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -17,7 +16,6 @@ const Index = () => {
         <TrustStrip />
         <OfferCards />
         <Results />
-        <Process />
         <FAQ />
         <Contact />
       </main>

@@ -28,6 +28,10 @@ All colors MUST be HSL.
     --accent: 220 70% 45%;
     --accent-foreground: 0 0% 98%;
 
+    /* CTA Button - White */
+    --cta: 0 0% 100%;
+    --cta-foreground: 220 60% 15%;
+
     --secondary: 220 15% 96%;
     --secondary-foreground: 220 20% 10%;
 
@@ -83,6 +87,10 @@ All colors MUST be HSL.
     /* Accent darker blue for dark theme */
     --accent: 220 65% 50%;
     --accent-foreground: 220 30% 5%;
+
+    /* CTA Button - White for dark theme */
+    --cta: 0 0% 100%;
+    --cta-foreground: 220 60% 15%;
 
     --secondary: 220 20% 15%;
     --secondary-foreground: 0 0% 95%;

@@ -19,29 +19,14 @@ const Contact = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
-          {/* Contact Buttons */}
+          {/* Contact Button */}
           <div className="space-y-6">
             <div className="grid gap-4">
-              <Button variant="accent" size="lg" className="w-full text-lg py-6" asChild>
+              <Button variant="cta" size="lg" className="w-full text-lg py-6" asChild>
                 <a href="https://calendly.com/bfyautomation/new-meeting" target="_blank" rel="noopener noreferrer">
                   <Calendar className="w-5 h-5 mr-2" />
                   Book a call
                 </a>
-              </Button>
-              
-              <Button variant="outline" size="lg" className="w-full text-lg py-6">
-                <Mail className="w-5 h-5 mr-2" />
-                Email Me
-              </Button>
-              
-              <Button variant="outline" size="lg" className="w-full text-lg py-6">
-                <MessageCircle className="w-5 h-5 mr-2" />
-                WhatsApp Me
-              </Button>
-              
-              <Button variant="default" size="lg" className="w-full text-lg py-6">
-                <Send className="w-5 h-5 mr-2" />
-                Start a project
               </Button>
             </div>
 
@@ -88,7 +73,7 @@ const Contact = () => {
                 />
               </div>
               
-              <Button variant="accent" className="w-full">
+              <Button variant="cta" className="w-full">
                 Send Message
               </Button>
             </CardContent>
