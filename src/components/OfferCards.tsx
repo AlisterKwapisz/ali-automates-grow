@@ -27,7 +27,7 @@ const OfferCards = () => {
   return (
     <section id="work" className="py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             We do these 3 things for businesses
           </h2>
