@@ -93,9 +93,9 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+        <div className="flex justify-center max-w-2xl mx-auto">
           {/* Contact Button */}
-          <div className="space-y-6">
+          <div className="space-y-6 w-full max-w-md">
             <div className="grid gap-4">
               <Button variant="cta" size="lg" className="w-full text-lg py-6" asChild>
                 <a href="https://calendly.com/bfyautomation/new-meeting" target="_blank" rel="noopener noreferrer">
@@ -104,15 +104,10 @@ const Contact = () => {
                 </a>
               </Button>
             </div>
-
-            <div className="text-center pt-6">
-              <p className="text-sm text-muted-foreground">
-                Or reach out through the form →
-              </p>
-            </div>
           </div>
 
-          {/* Contact Form */}
+          {/* Contact Form - COMMENTED OUT FOR NOW */}
+          {/*
           <Card>
             <CardHeader>
               <CardTitle>Send us a message</CardTitle>
@@ -186,6 +181,7 @@ const Contact = () => {
               </form>
             </CardContent>
           </Card>
+          */}
         </div>
       </div>
     </section>
