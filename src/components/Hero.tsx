@@ -16,7 +16,7 @@ const Hero = () => {
 
           {/* Subheadline */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            We'll automate your lead generation and give you a CRM for 7 days free. Don't like it? Fire us.
+            We'll automate your lead gen followups and give you a CRM for 7 days free. Don't like it? Fire us.
           </p>
 
           {/* CTAs */}
