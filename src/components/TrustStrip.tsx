@@ -6,13 +6,13 @@ import { Settings, Building2, Workflow, Search, Sparkles } from "lucide-react";
 const TrustStrip = () => {
   const platformLogos = [
     { 
-      node: <div className="flex items-center gap-2"><Settings className="w-6 h-6" /><span className="text-sm font-medium">Make</span></div>, 
+      node: <img src="/lovable-uploads/a96cbb26-a866-4967-9f59-38cc59c52442.png" alt="Make.com" className="w-8 h-8" />, 
       title: "Make.com", 
       href: "https://make.com",
       ariaLabel: "Make.com automation platform"
     },
     { 
-      node: <div className="flex items-center gap-2"><Building2 className="w-6 h-6" /><span className="text-sm font-medium">GHL</span></div>, 
+      node: <img src="/lovable-uploads/7679ff79-0066-419f-9f86-fbc037cfd018.png" alt="GoHighLevel" className="w-8 h-8" />, 
       title: "GoHighLevel", 
       href: "https://gohighlevel.com",
       ariaLabel: "GoHighLevel CRM platform"
