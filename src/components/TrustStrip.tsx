@@ -31,12 +31,6 @@ const TrustStrip = () => {
       ariaLabel: "ChatGPT by OpenAI"
     },
     { 
-      node: <TbBrandZapier className="w-8 h-8" />, 
-      title: "Zapier", 
-      href: "https://zapier.com",
-      ariaLabel: "Zapier automation platform"
-    },
-    { 
       src: "/lovable-uploads/9f4b2d04-b295-4554-ada8-cf4b0eef15ff.png",
       title: "Notion", 
       href: "https://notion.so",
