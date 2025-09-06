@@ -42,7 +42,7 @@ const TrustStrip = () => {
   ];
 
   return (
-    <section className="py-24 bg-secondary/30">
+    <section className="py-12 bg-secondary/30">
       <div className="w-full">
         <div className="text-center mb-16">
           <p className="text-2xl text-muted-foreground mb-8">

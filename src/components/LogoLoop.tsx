@@ -364,7 +364,7 @@ export const LogoLoop = memo<LogoLoopProps>(
               aria-hidden
               className={cx(
                 'pointer-events-none absolute inset-y-0 left-0 z-[1]',
-                'w-[clamp(24px,8%,120px)]',
+                'w-[clamp(48px,15%,200px)]',
                 'bg-[linear-gradient(to_right,var(--logoloop-fadeColor,var(--logoloop-fadeColorAuto))_0%,rgba(0,0,0,0)_100%)]'
               )}
             />
@@ -372,7 +372,7 @@ export const LogoLoop = memo<LogoLoopProps>(
               aria-hidden
               className={cx(
                 'pointer-events-none absolute inset-y-0 right-0 z-[1]',
-                'w-[clamp(24px,8%,120px)]',
+                'w-[clamp(48px,15%,200px)]',
                 'bg-[linear-gradient(to_left,var(--logoloop-fadeColor,var(--logoloop-fadeColorAuto))_0%,rgba(0,0,0,0)_100%)]'
               )}
             />
