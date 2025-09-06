@@ -1,19 +1,18 @@
 import { Card } from "@/components/ui/card";
 import LogoLoop from "./LogoLoop";
-import { SiStripe, SiSalesforce } from "react-icons/si";
-import { TbBrandZapier } from "react-icons/tb";
-import { Settings, Zap } from "lucide-react";
+import { SiStripe, SiSalesforce, SiZapier } from "react-icons/si";
+import { Settings, Zap, Building2, CreditCard, Users } from "lucide-react";
 
 const TrustStrip = () => {
   const platformLogos = [
     { 
-      node: <Settings className="w-8 h-8" />, 
+      node: <div className="flex items-center gap-2"><Settings className="w-6 h-6" /><span className="text-sm font-medium">Make</span></div>, 
       title: "Make.com", 
       href: "https://make.com",
       ariaLabel: "Make.com automation platform"
     },
     { 
-      node: <Zap className="w-8 h-8" />, 
+      node: <div className="flex items-center gap-2"><Building2 className="w-6 h-6" /><span className="text-sm font-medium">GHL</span></div>, 
       title: "GoHighLevel", 
       href: "https://gohighlevel.com",
       ariaLabel: "GoHighLevel CRM platform"
@@ -31,7 +30,7 @@ const TrustStrip = () => {
       ariaLabel: "Salesforce CRM"
     },
     { 
-      node: <TbBrandZapier className="w-8 h-8" />, 
+      node: <SiZapier className="w-8 h-8" />, 
       title: "Zapier", 
       href: "https://zapier.com",
       ariaLabel: "Zapier automation platform"
