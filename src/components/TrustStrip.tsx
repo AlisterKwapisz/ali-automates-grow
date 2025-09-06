@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import LogoLoop from "./LogoLoop";
-import { SiStripe, SiSalesforce, SiZapier } from "react-icons/si";
-import { Settings, Zap, Building2, CreditCard, Users } from "lucide-react";
+import { SiZapier, SiOpenai, SiGoogle } from "react-icons/si";
+import { Settings, Building2, Workflow, Search, Sparkles } from "lucide-react";
 
 const TrustStrip = () => {
   const platformLogos = [
@@ -18,16 +18,28 @@ const TrustStrip = () => {
       ariaLabel: "GoHighLevel CRM platform"
     },
     { 
-      node: <SiStripe className="w-8 h-8" />, 
-      title: "Stripe", 
-      href: "https://stripe.com",
-      ariaLabel: "Stripe payment processing"
+      node: <div className="flex items-center gap-2"><Workflow className="w-6 h-6" /><span className="text-sm font-medium">n8n</span></div>, 
+      title: "n8n", 
+      href: "https://n8n.io",
+      ariaLabel: "n8n automation platform"
     },
     { 
-      node: <SiSalesforce className="w-8 h-8" />, 
-      title: "Salesforce", 
-      href: "https://salesforce.com",
-      ariaLabel: "Salesforce CRM"
+      node: <SiOpenai className="w-8 h-8" />, 
+      title: "ChatGPT", 
+      href: "https://openai.com",
+      ariaLabel: "ChatGPT AI assistant"
+    },
+    { 
+      node: <div className="flex items-center gap-2"><Search className="w-6 h-6" /><span className="text-sm font-medium">Perplexity</span></div>, 
+      title: "Perplexity", 
+      href: "https://perplexity.ai",
+      ariaLabel: "Perplexity AI search"
+    },
+    { 
+      node: <div className="flex items-center gap-2"><SiGoogle className="w-6 h-6" /><span className="text-sm font-medium">Gemini</span></div>, 
+      title: "Google Gemini", 
+      href: "https://gemini.google.com",
+      ariaLabel: "Google Gemini AI"
     },
     { 
       node: <SiZapier className="w-8 h-8" />, 
