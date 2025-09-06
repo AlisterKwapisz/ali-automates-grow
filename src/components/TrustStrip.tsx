@@ -1,33 +1,40 @@
 import { Card } from "@/components/ui/card";
 import LogoLoop from "./LogoLoop";
-import { SiN8N } from "react-icons/si";
+import { SiStripe, SiSalesforce } from "react-icons/si";
 import { TbBrandZapier } from "react-icons/tb";
+import { Settings, Zap } from "lucide-react";
 
 const TrustStrip = () => {
   const platformLogos = [
     { 
-      node: <TbBrandZapier className="w-8 h-8" />, 
+      node: <Settings className="w-8 h-8" />, 
       title: "Make.com", 
       href: "https://make.com",
       ariaLabel: "Make.com automation platform"
     },
     { 
-      node: <SiN8N className="w-8 h-8" />, 
-      title: "N8n", 
-      href: "https://n8n.io",
-      ariaLabel: "N8n workflow automation"
+      node: <Zap className="w-8 h-8" />, 
+      title: "GoHighLevel", 
+      href: "https://gohighlevel.com",
+      ariaLabel: "GoHighLevel CRM platform"
+    },
+    { 
+      node: <SiStripe className="w-8 h-8" />, 
+      title: "Stripe", 
+      href: "https://stripe.com",
+      ariaLabel: "Stripe payment processing"
+    },
+    { 
+      node: <SiSalesforce className="w-8 h-8" />, 
+      title: "Salesforce", 
+      href: "https://salesforce.com",
+      ariaLabel: "Salesforce CRM"
     },
     { 
       node: <TbBrandZapier className="w-8 h-8" />, 
-      title: "Make.com", 
-      href: "https://make.com",
-      ariaLabel: "Make.com automation platform"
-    },
-    { 
-      node: <SiN8N className="w-8 h-8" />, 
-      title: "N8n", 
-      href: "https://n8n.io",
-      ariaLabel: "N8n workflow automation"
+      title: "Zapier", 
+      href: "https://zapier.com",
+      ariaLabel: "Zapier automation platform"
     },
   ];
 
