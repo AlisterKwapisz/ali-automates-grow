@@ -1,9 +1,34 @@
 import { Card } from "@/components/ui/card";
+import LogoLoop from "./LogoLoop";
+import { SiN8N } from "react-icons/si";
+import { TbBrandZapier } from "react-icons/tb";
 
 const TrustStrip = () => {
-  const platforms = [
-    "Make.com",
-    "N8n"
+  const platformLogos = [
+    { 
+      node: <TbBrandZapier className="w-8 h-8" />, 
+      title: "Make.com", 
+      href: "https://make.com",
+      ariaLabel: "Make.com automation platform"
+    },
+    { 
+      node: <SiN8N className="w-8 h-8" />, 
+      title: "N8n", 
+      href: "https://n8n.io",
+      ariaLabel: "N8n workflow automation"
+    },
+    { 
+      node: <TbBrandZapier className="w-8 h-8" />, 
+      title: "Make.com", 
+      href: "https://make.com",
+      ariaLabel: "Make.com automation platform"
+    },
+    { 
+      node: <SiN8N className="w-8 h-8" />, 
+      title: "N8n", 
+      href: "https://n8n.io",
+      ariaLabel: "N8n workflow automation"
+    },
   ];
 
   return (
@@ -16,16 +41,18 @@ const TrustStrip = () => {
         </div>
         
         <Card className="p-6">
-          <div className="flex flex-wrap justify-center items-center gap-6 md:gap-8">
-            {platforms.map((platform, index) => (
-              <div
-                key={platform}
-                className="flex items-center space-x-2 text-muted-foreground"
-              >
-                <div className="w-2 h-2 bg-accent rounded-full"></div>
-                <span className="text-sm font-medium">{platform}</span>
-              </div>
-            ))}
+          <div style={{ height: '80px', position: 'relative', overflow: 'hidden' }}>
+            <LogoLoop
+              logos={platformLogos}
+              speed={60}
+              direction="left"
+              logoHeight={32}
+              gap={60}
+              pauseOnHover
+              scaleOnHover
+              fadeOut
+              ariaLabel="Automation tools we work with"
+            />
           </div>
         </Card>
       </div>
