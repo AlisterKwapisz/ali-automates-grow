@@ -1,67 +1,64 @@
-import { Card } from "@/components/ui/card";
 import LogoLoop from "./LogoLoop";
-import { SiStripe, SiSalesforce } from "react-icons/si";
-import { TbBrandZapier } from "react-icons/tb";
-import { Settings, Zap } from "lucide-react";
+import { SiOpenai } from "react-icons/si";
 
 const TrustStrip = () => {
   const platformLogos = [
     { 
-      node: <Settings className="w-8 h-8" />, 
-      title: "Make.com", 
-      href: "https://make.com",
-      ariaLabel: "Make.com automation platform"
+      node: <img src="lovable-uploads/48ba36b1-58c4-4c88-8dc8-c19af16e1b76.png" alt="Platform 1" className="w-10 h-10 object-contain" />, 
+      title: "Platform 1", 
+      href: "#",
+      ariaLabel: "Platform 1"
     },
     { 
-      node: <Zap className="w-8 h-8" />, 
-      title: "GoHighLevel", 
-      href: "https://gohighlevel.com",
-      ariaLabel: "GoHighLevel CRM platform"
+      node: <img src="lovable-uploads/e247f3f6-15cb-4190-aaa2-34222e894018.png" alt="Platform 2" className="w-10 h-10 object-contain" />, 
+      title: "Platform 2", 
+      href: "#",
+      ariaLabel: "Platform 2"
     },
     { 
-      node: <SiStripe className="w-8 h-8" />, 
-      title: "Stripe", 
-      href: "https://stripe.com",
-      ariaLabel: "Stripe payment processing"
+      node: <img src="lovable-uploads/bc06378a-005e-4c18-8698-dc5e86ade269.png" alt="Platform 3" className="w-10 h-10 object-contain" />, 
+      title: "Platform 3", 
+      href: "#",
+      ariaLabel: "Platform 3"
     },
     { 
-      node: <SiSalesforce className="w-8 h-8" />, 
-      title: "Salesforce", 
-      href: "https://salesforce.com",
-      ariaLabel: "Salesforce CRM"
+      node: <img src="lovable-uploads/d7f59647-8050-4710-a9d7-0cd05a23f414.png" alt="Platform 4" className="w-10 h-10 object-contain" />, 
+      title: "Platform 4", 
+      href: "#",
+      ariaLabel: "Platform 4"
     },
     { 
-      node: <TbBrandZapier className="w-8 h-8" />, 
-      title: "Zapier", 
-      href: "https://zapier.com",
-      ariaLabel: "Zapier automation platform"
+      node: <SiOpenai className="w-10 h-10" />, 
+      title: "ChatGPT", 
+      href: "https://openai.com",
+      ariaLabel: "ChatGPT AI platform"
     },
   ];
 
   return (
-    <section className="py-16 bg-secondary/30">
+    <section className="py-20 bg-secondary/30">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-8">
-          <p className="text-muted-foreground mb-4">
+        <div className="text-center mb-12">
+          <p className="text-xl text-muted-foreground mb-6">
             Tools we work with:
           </p>
         </div>
         
-        <Card className="p-6">
-          <div style={{ height: '80px', position: 'relative', overflow: 'hidden' }}>
+        <div className="bg-card/50 backdrop-blur-sm rounded-3xl p-12 border-0 shadow-lg">
+          <div style={{ height: '120px', position: 'relative', overflow: 'hidden' }}>
             <LogoLoop
               logos={platformLogos}
               speed={60}
               direction="left"
-              logoHeight={32}
-              gap={60}
+              logoHeight={40}
+              gap={80}
               pauseOnHover
               scaleOnHover
               fadeOut
-              ariaLabel="Automation tools we work with"
+              ariaLabel="Tools we work with"
             />
           </div>
-        </Card>
+        </div>
       </div>
     </section>
   );
