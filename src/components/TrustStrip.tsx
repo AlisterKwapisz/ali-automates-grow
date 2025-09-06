@@ -13,7 +13,7 @@ const TrustStrip = () => {
       ariaLabel: "Make.com automation platform"
     },
     { 
-      src: "/lovable-uploads/10a451c1-5421-4a2d-b4e3-dd2b72503de7.png",
+      node: <SiN8N className="w-8 h-8" />, 
       title: "N8n", 
       href: "https://n8n.io",
       ariaLabel: "N8n workflow automation"
@@ -25,16 +25,16 @@ const TrustStrip = () => {
       ariaLabel: "Google Gemini AI"
     },
     { 
-      src: "/lovable-uploads/573b71be-79e3-4214-93d9-72166cc84774.png",
-      title: "Perplexity", 
-      href: "https://perplexity.ai",
-      ariaLabel: "Perplexity AI search"
-    },
-    { 
       node: <SiOpenai className="w-8 h-8" />, 
       title: "ChatGPT", 
       href: "https://openai.com",
       ariaLabel: "ChatGPT by OpenAI"
+    },
+    { 
+      node: <TbBrandZapier className="w-8 h-8" />, 
+      title: "Zapier", 
+      href: "https://zapier.com",
+      ariaLabel: "Zapier automation platform"
     },
     { 
       src: "/lovable-uploads/9f4b2d04-b295-4554-ada8-cf4b0eef15ff.png",
