@@ -1,51 +1,33 @@
 import { Card } from "@/components/ui/card";
 import LogoLoop from "./LogoLoop";
-import { SiZapier, SiOpenai, SiGoogle } from "react-icons/si";
-import { Settings, Building2, Workflow, Search, Sparkles } from "lucide-react";
+import { SiN8N } from "react-icons/si";
+import { TbBrandZapier } from "react-icons/tb";
 
 const TrustStrip = () => {
   const platformLogos = [
     { 
-      node: <img src="/lovable-uploads/a96cbb26-a866-4967-9f59-38cc59c52442.png" alt="Make.com" className="w-8 h-8" />, 
+      node: <TbBrandZapier className="w-8 h-8" />, 
       title: "Make.com", 
       href: "https://make.com",
       ariaLabel: "Make.com automation platform"
     },
     { 
-      node: <img src="/lovable-uploads/7679ff79-0066-419f-9f86-fbc037cfd018.png" alt="GoHighLevel" className="w-8 h-8" />, 
-      title: "GoHighLevel", 
-      href: "https://gohighlevel.com",
-      ariaLabel: "GoHighLevel CRM platform"
-    },
-    { 
-      node: <div className="flex items-center gap-2"><Workflow className="w-6 h-6" /><span className="text-sm font-medium">n8n</span></div>, 
-      title: "n8n", 
+      node: <SiN8N className="w-8 h-8" />, 
+      title: "N8n", 
       href: "https://n8n.io",
-      ariaLabel: "n8n automation platform"
+      ariaLabel: "N8n workflow automation"
     },
     { 
-      node: <SiOpenai className="w-8 h-8" />, 
-      title: "ChatGPT", 
-      href: "https://openai.com",
-      ariaLabel: "ChatGPT AI assistant"
+      node: <TbBrandZapier className="w-8 h-8" />, 
+      title: "Make.com", 
+      href: "https://make.com",
+      ariaLabel: "Make.com automation platform"
     },
     { 
-      node: <div className="flex items-center gap-2"><Search className="w-6 h-6" /><span className="text-sm font-medium">Perplexity</span></div>, 
-      title: "Perplexity", 
-      href: "https://perplexity.ai",
-      ariaLabel: "Perplexity AI search"
-    },
-    { 
-      node: <div className="flex items-center gap-2"><SiGoogle className="w-6 h-6" /><span className="text-sm font-medium">Gemini</span></div>, 
-      title: "Google Gemini", 
-      href: "https://gemini.google.com",
-      ariaLabel: "Google Gemini AI"
-    },
-    { 
-      node: <SiZapier className="w-8 h-8" />, 
-      title: "Zapier", 
-      href: "https://zapier.com",
-      ariaLabel: "Zapier automation platform"
+      node: <SiN8N className="w-8 h-8" />, 
+      title: "N8n", 
+      href: "https://n8n.io",
+      ariaLabel: "N8n workflow automation"
     },
   ];
 
