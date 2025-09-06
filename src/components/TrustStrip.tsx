@@ -10,7 +10,7 @@ const TrustStrip = () => {
       ariaLabel: "Platform 1"
     },
     { 
-      node: <img src="lovable-uploads/e247f3f6-15cb-4190-aaa2-34222e894018.png" alt="Perplexity" className="w-20 h-20 object-contain" />, 
+      node: <img src="lovable-uploads/e247f3f6-15cb-4190-aaa2-34222e894018.png" alt="Perplexity" className="w-16 h-16 object-contain" />, 
       title: "Perplexity", 
       href: "https://perplexity.ai",
       ariaLabel: "Perplexity AI"
@@ -44,19 +44,19 @@ const TrustStrip = () => {
   return (
     <section className="py-24 bg-secondary/30">
       <div className="w-full">
+        <div className="text-center mb-16">
+          <p className="text-2xl text-muted-foreground mb-8">
+            Tools we work with:
+          </p>
+        </div>
+        
         <div className="bg-card/50 backdrop-blur-sm py-16 border-0">
-          <div className="text-center mb-16">
-            <p className="text-2xl text-muted-foreground mb-8">
-              Tools we work with:
-            </p>
-          </div>
-          
           <div style={{ height: '160px', position: 'relative', overflow: 'hidden' }}>
             <LogoLoop
               logos={platformLogos}
               speed={60}
               direction="left"
-              logoHeight={64}
+              logoHeight={56}
               gap={100}
               pauseOnHover
               scaleOnHover
