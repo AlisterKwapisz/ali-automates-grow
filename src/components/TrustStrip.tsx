@@ -4,7 +4,7 @@ import { SiOpenai, SiGooglegemini } from "react-icons/si";
 const TrustStrip = () => {
   const platformLogos = [
     { 
-      node: <img src="lovable-uploads/48ba36b1-58c4-4c88-8dc8-c19af16e1b76.png" alt="Platform 1" className="w-12 h-12 object-contain" />, 
+      node: <img src="lovable-uploads/48ba36b1-58c4-4c88-8dc8-c19af16e1b76.png" alt="Platform 1" className="w-16 h-16 object-contain" />, 
       title: "Platform 1", 
       href: "#",
       ariaLabel: "Platform 1"
