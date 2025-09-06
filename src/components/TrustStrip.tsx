@@ -60,7 +60,6 @@ const TrustStrip = () => {
               gap={100}
               pauseOnHover
               scaleOnHover
-              fadeOut
               ariaLabel="Tools we work with"
             />
           </div>
