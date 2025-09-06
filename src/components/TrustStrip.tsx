@@ -1,12 +1,13 @@
 import { Card } from "@/components/ui/card";
 import LogoLoop from "./LogoLoop";
-import { SiN8N } from "react-icons/si";
+import { SiN8N, SiOpenai } from "react-icons/si";
 import { TbBrandZapier } from "react-icons/tb";
+import { SiGooglegemini } from "react-icons/si";
 
 const TrustStrip = () => {
   const platformLogos = [
     { 
-      node: <TbBrandZapier className="w-8 h-8" />, 
+      src: "/lovable-uploads/0d745a31-feeb-4661-b03b-85765e39c9db.png",
       title: "Make.com", 
       href: "https://make.com",
       ariaLabel: "Make.com automation platform"
@@ -18,16 +19,28 @@ const TrustStrip = () => {
       ariaLabel: "N8n workflow automation"
     },
     { 
-      node: <TbBrandZapier className="w-8 h-8" />, 
-      title: "Make.com", 
-      href: "https://make.com",
-      ariaLabel: "Make.com automation platform"
+      src: "/lovable-uploads/8cebf587-e331-411c-b39d-2b196a963cf3.png",
+      title: "Google Gemini", 
+      href: "https://gemini.google.com",
+      ariaLabel: "Google Gemini AI"
     },
     { 
-      node: <SiN8N className="w-8 h-8" />, 
-      title: "N8n", 
-      href: "https://n8n.io",
-      ariaLabel: "N8n workflow automation"
+      node: <SiOpenai className="w-8 h-8" />, 
+      title: "ChatGPT", 
+      href: "https://openai.com",
+      ariaLabel: "ChatGPT by OpenAI"
+    },
+    { 
+      node: <TbBrandZapier className="w-8 h-8" />, 
+      title: "Zapier", 
+      href: "https://zapier.com",
+      ariaLabel: "Zapier automation platform"
+    },
+    { 
+      src: "/lovable-uploads/9f4b2d04-b295-4554-ada8-cf4b0eef15ff.png",
+      title: "Notion", 
+      href: "https://notion.so",
+      ariaLabel: "Notion workspace"
     },
   ];
 
