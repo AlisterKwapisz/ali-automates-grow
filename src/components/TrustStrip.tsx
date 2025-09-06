@@ -13,7 +13,7 @@ const TrustStrip = () => {
       ariaLabel: "Make.com automation platform"
     },
     { 
-      node: <SiN8N className="w-8 h-8" />, 
+      src: "/lovable-uploads/10a451c1-5421-4a2d-b4e3-dd2b72503de7.png",
       title: "N8n", 
       href: "https://n8n.io",
       ariaLabel: "N8n workflow automation"
@@ -23,6 +23,12 @@ const TrustStrip = () => {
       title: "Google Gemini", 
       href: "https://gemini.google.com",
       ariaLabel: "Google Gemini AI"
+    },
+    { 
+      src: "/lovable-uploads/573b71be-79e3-4214-93d9-72166cc84774.png",
+      title: "Perplexity", 
+      href: "https://perplexity.ai",
+      ariaLabel: "Perplexity AI search"
     },
     { 
       node: <SiOpenai className="w-8 h-8" />, 
