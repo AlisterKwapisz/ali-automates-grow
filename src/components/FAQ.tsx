@@ -8,16 +8,24 @@ import {
 const FAQ = () => {
   const faqs = [
     {
-      question: "What tools do you use?",
-      answer: "Make.com, N8n, OpenAI, VAPI, and standard web scrapers where legal."
+      question: "How can you guarantee placements?",
+      answer: "We've refined our AI algorithms through hundreds of campaigns. Our system identifies and engages candidates who are most likely to move forward. If we don't hit our targets, we continue working until we do — at no extra cost to you."
     },
     {
-      question: "Do you need my logins?",
-      answer: "Yes, but we make everything safe and secure, and only if you want to. If you prefer to use your own accounts, we can use those. If not, we can use our accounts, but you'll cover the expenses."
+      question: "Will this replace my recruiters?",
+      answer: "Absolutely not. This makes your recruiters more effective by handling the time-consuming sourcing and initial outreach, so they can focus on building relationships and closing deals."
     },
     {
-      question: "How fast is delivery?",
-      answer: "Depends on the size of the AI workflows or AI agents. Usually, we'll get it done within a week for smaller AI automations, but custom ones can have longer waiting times."
+      question: "What if candidates don't respond to AI messages?",
+      answer: "Our messages are personalized and human-like, with response rates 3x higher than typical recruitment outreach. Plus, we follow up across multiple channels until we get a response."
+    },
+    {
+      question: "How quickly can we start seeing results?",
+      answer: "Most clients see increased candidate engagement within 2 weeks and first placements within 30-45 days. The full 5-10 placements typically occur throughout the 90-day period."
+    },
+    {
+      question: "What happens after the 90-day pilot?",
+      answer: "If you're happy with results (and 94% of our clients are), we scale the system across more roles and continue optimizing. If not, you pay nothing and keep all the placements we made."
     }
   ];
 

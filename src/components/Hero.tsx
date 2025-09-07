@@ -9,24 +9,53 @@ const Hero = () => {
         <div className="text-center max-w-4xl mx-auto">
           {/* Headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight">
-            Stop using Google Sheets.{" "}
-            <span className="text-primary">Get an automated CRM</span> for{" "}
-            <span className="text-accent">free</span>
+            Get{" "}
+            <span className="text-primary">5–10 Quality Placements</span>{" "}
+            in 90 Days — <span className="text-accent">Guaranteed</span>
           </h1>
 
           {/* Subheadline */}
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            We'll automate your lead gen follow-ups and give you a CRM for 7 days free. Don't like it? Fire us.
+          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
+            Stop wasting 15+ hours per week on manual candidate outreach. Our AI-powered recruitment automation finds, engages, and nurtures top talent while your team focuses on what they do best — closing deals.
           </p>
 
+          {/* Value Props */}
+          <div className="grid md:grid-cols-3 gap-6 mb-8 max-w-4xl mx-auto">
+            <div className="text-center">
+              <div className="text-green-500 mb-2">✅</div>
+              <div className="font-semibold text-foreground mb-1">Zero Risk</div>
+              <div className="text-sm text-muted-foreground">We work until placements are made</div>
+            </div>
+            <div className="text-center">
+              <div className="text-green-500 mb-2">✅</div>
+              <div className="font-semibold text-foreground mb-1">No Extra Headcount</div>
+              <div className="text-sm text-muted-foreground">Your current team, supercharged</div>
+            </div>
+            <div className="text-center">
+              <div className="text-green-500 mb-2">✅</div>
+              <div className="font-semibold text-foreground mb-1">Proven Results</div>
+              <div className="text-sm text-muted-foreground">5-10 placements in 90 days</div>
+            </div>
+          </div>
+
           {/* CTAs */}
-          <div className="flex justify-center mb-12">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <Button variant="cta" size="lg" className="text-lg px-8 py-6" asChild>
               <a href="https://calendly.com/bfyautomation/new-meeting" target="_blank" rel="noopener noreferrer">
-                Book a call
+                Get Your Free Recruitment Audit
+              </a>
+            </Button>
+            <Button variant="outline" size="lg" className="text-lg px-8 py-6" asChild>
+              <a href="#how-it-works">
+                See How It Works
               </a>
             </Button>
           </div>
+
+          {/* Trust Indicator */}
+          <p className="text-muted-foreground text-sm">
+            Trusted by 50+ recruitment agencies
+          </p>
 
         </div>
       </div>

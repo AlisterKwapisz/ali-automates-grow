@@ -1,9 +1,14 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import TrustStrip from "@/components/TrustStrip";
+import Problem from "@/components/Problem";
 import OfferCards from "@/components/OfferCards";
+import Guarantee from "@/components/Guarantee";
 import Results from "@/components/Results";
+import SocialProof from "@/components/SocialProof";
 import FAQ from "@/components/FAQ";
+import Urgency from "@/components/Urgency";
+import FinalCTA from "@/components/FinalCTA";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -14,9 +19,14 @@ const Index = () => {
       <main>
         <Hero />
         <TrustStrip />
+        <Problem />
         <OfferCards />
+        <Guarantee />
         <Results />
+        <SocialProof />
         <FAQ />
+        <Urgency />
+        <FinalCTA />
         <Contact />
       </main>
       <Footer />
