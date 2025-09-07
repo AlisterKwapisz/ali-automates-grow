@@ -16,6 +16,12 @@ const TrustStrip = () => {
       ariaLabel: "Perplexity AI"
     },
     { 
+      node: <img src="lovable-uploads/53fc8917-6c1d-4a13-b9ed-7f141b153ae0.png" alt="Lightning Platform" className="w-16 h-16 object-contain" />, 
+      title: "Lightning Platform", 
+      href: "#",
+      ariaLabel: "Lightning Platform"
+    },
+    { 
       node: <img src="lovable-uploads/bc06378a-005e-4c18-8698-dc5e86ade269.png" alt="Platform 3" className="w-12 h-12 object-contain" />, 
       title: "Platform 3", 
       href: "#",
