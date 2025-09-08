@@ -39,7 +39,7 @@ const Hero = () => {
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <Button variant="cta" size="lg" className="text-lg px-8 py-6" asChild>
-              <a href="https://calendly.com/bfyautomation/new-meeting" target="_blank" rel="noopener noreferrer">Get Your Free Consultation</a>
+              <a href="https://calendly.com/bfyautomation/free-consultation" target="_blank" rel="noopener noreferrer">Get Your Free Consultation</a>
             </Button>
             <Button variant="outline" size="lg" className="text-lg px-8 py-6" asChild>
               <a href="#how-it-works">
