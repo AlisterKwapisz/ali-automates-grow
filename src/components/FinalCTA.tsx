@@ -1,10 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { FileSearch, Rocket } from "lucide-react";
-
 const FinalCTA = () => {
-  return (
-    <section className="py-20 bg-gradient-to-br from-primary/5 to-accent/5">
+  return <section className="py-20 bg-gradient-to-br from-primary/5 to-accent/5">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
@@ -22,9 +20,7 @@ const FinalCTA = () => {
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
                 <FileSearch className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="text-2xl font-bold text-foreground mb-4">
-                Option 1: Free Audit
-              </h3>
+              <h3 className="text-2xl font-bold text-foreground mb-4">Option 1: Free Consultation</h3>
               <p className="text-muted-foreground mb-6">
                 See exactly where you're losing candidates and how AI can fix it
               </p>
@@ -64,8 +60,6 @@ const FinalCTA = () => {
           </p>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default FinalCTA;
