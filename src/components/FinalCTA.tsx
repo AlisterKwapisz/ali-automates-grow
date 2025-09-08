@@ -20,7 +20,7 @@ const FinalCTA = () => {
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
                 <FileSearch className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="text-2xl font-bold text-foreground mb-4">Option 1: Free Consultation</h3>
+              <h3 className="text-2xl font-bold text-foreground mb-4">Option 1: Free AI Consultation</h3>
               <p className="text-muted-foreground mb-6">Get Your Free Consultation</p>
               <Button variant="outline" size="lg" className="w-full" asChild>
                 <a href="https://calendly.com/bfyautomation/free-consultation" target="_blank" rel="noopener noreferrer">
