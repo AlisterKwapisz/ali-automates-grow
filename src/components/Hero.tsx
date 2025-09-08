@@ -13,9 +13,7 @@ const Hero = () => {
           </h1>
 
           {/* Subheadline */}
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            Stop wasting 15+ hours per week on manual candidate outreach. Our AI-powered recruitment automation finds, engages, and nurtures top talent while your team focuses on what they do best — closing deals.
-          </p>
+          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">Stop wasting 15+ hours per week on manual candidate outreach. Our AI-powered recruitment automations find, engage, and nurture top talent while your team focuses on what they do best - closing deals.</p>
 
           {/* Value Props */}
           <div className="grid md:grid-cols-3 gap-6 mb-8 max-w-4xl mx-auto">
