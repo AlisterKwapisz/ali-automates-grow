@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { TrendingUp, Clock, DollarSign, Target, Focus, Smile, Award, BarChart } from "lucide-react";
+import { TrendingUp, Clock, DollarSign, BarChart } from "lucide-react";
 
 const Results = () => {
   const businessBenefits = [
@@ -22,29 +22,6 @@ const Results = () => {
       icon: BarChart,
       title: "Predictable pipeline",
       description: "you can count on month after month"
-    }
-  ];
-
-  const teamBenefits = [
-    {
-      icon: Focus,
-      title: "Focus on high-value activities",
-      description: "relationship building and closing"
-    },
-    {
-      icon: Smile,
-      title: "Less stress",
-      description: "from manual grunt work"
-    },
-    {
-      icon: Award,
-      title: "Better performance",
-      description: "with warm, pre-qualified candidates"
-    },
-    {
-      icon: Target,
-      title: "Real-time insights",
-      description: "into candidate engagement and pipeline health"
     }
   ];
 
@@ -87,32 +64,6 @@ const Results = () => {
           </div>
         </div>
 
-        {/* Team Benefits */}
-        <div>
-          <h3 className="text-2xl font-bold text-center text-foreground mb-8">
-            For Your Team:
-          </h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {teamBenefits.map((result, index) => {
-              const IconComponent = result.icon;
-              return (
-                <Card key={index} className="text-center group hover:shadow-lg transition-shadow">
-                  <CardContent className="pt-8 pb-6">
-                    <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center mx-auto mb-4 group-hover:bg-accent/20 transition-colors">
-                      <IconComponent className="w-6 h-6 text-accent" />
-                    </div>
-                    <h4 className="text-lg font-semibold text-foreground mb-2">
-                      🎯 {result.title}
-                    </h4>
-                    <p className="text-muted-foreground text-sm leading-relaxed">
-                      {result.description}
-                    </p>
-                  </CardContent>
-                </Card>
-              );
-            })}
-          </div>
-        </div>
       </div>
     </section>
   );
