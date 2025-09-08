@@ -21,9 +21,7 @@ const FinalCTA = () => {
                 <FileSearch className="w-8 h-8 text-primary" />
               </div>
               <h3 className="text-2xl font-bold text-foreground mb-4">Option 1: Free Consultation</h3>
-              <p className="text-muted-foreground mb-6">
-                See exactly where you're losing candidates and how AI can fix it
-              </p>
+              <p className="text-muted-foreground mb-6">Get Your Free Consultation</p>
               <Button variant="outline" size="lg" className="w-full" asChild>
                 <a href="https://calendly.com/bfyautomation/audit" target="_blank" rel="noopener noreferrer">
                   Get Your Free Recruitment Audit

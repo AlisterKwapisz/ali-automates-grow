@@ -1,9 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
-
 const Hero = () => {
-  return (
-    <section className="py-24 lg:py-32 relative overflow-hidden">
+  return <section className="py-24 lg:py-32 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-primary/10 via-primary/5 to-transparent pointer-events-none"></div>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center max-w-4xl mx-auto">
@@ -41,9 +39,7 @@ const Hero = () => {
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <Button variant="cta" size="lg" className="text-lg px-8 py-6" asChild>
-              <a href="https://calendly.com/bfyautomation/new-meeting" target="_blank" rel="noopener noreferrer">
-                Get Your Free Recruitment Audit
-              </a>
+              <a href="https://calendly.com/bfyautomation/new-meeting" target="_blank" rel="noopener noreferrer">Get Your Free Consultation</a>
             </Button>
             <Button variant="outline" size="lg" className="text-lg px-8 py-6" asChild>
               <a href="#how-it-works">
@@ -59,8 +55,6 @@ const Hero = () => {
 
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
