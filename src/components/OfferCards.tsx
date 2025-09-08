@@ -13,7 +13,7 @@ const OfferCards = () => {
       number: "02",
       icon: MessageCircle,
       title: "Personalized Outreach at Scale", 
-      description: "Our AI crafts personalized messages that feel human, then automatically follows up with candidates across multiple touchpoints — email, LinkedIn, SMS — until they respond."
+      description: "Our AI crafts personalized messages that feel human, then automatically follows up with candidates across multiple touchpoints - email, LinkedIn, SMS - until they respond."
     },
     {
       number: "03",

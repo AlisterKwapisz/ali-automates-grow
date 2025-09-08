@@ -40,7 +40,7 @@ const SocialProof = () => {
             <CardContent className="p-8">
               <div className="text-center mb-8">
                 <h3 className="text-2xl font-bold text-foreground mb-4">
-                  <span className="text-primary">TechRecruit Solutions</span> went from 3 placements per month to 12 placements per month in 90 days — without adding a single team member.
+                  <span className="text-primary">TechRecruit Solutions</span> went from 3 placements per month to 12 placements per month in 90 days - without adding a single team member.
                 </h3>
               </div>
 
@@ -68,11 +68,11 @@ const SocialProof = () => {
               <div className="bg-card/50 rounded-lg p-6 relative">
                 <Quote className="w-8 h-8 text-primary/30 absolute top-4 left-4" />
                 <blockquote className="text-lg text-muted-foreground italic pl-12 mb-4">
-                  "I was skeptical about AI in recruitment, but BFYautomation proved me wrong. Our team is happier, our clients are getting better candidates faster, and our revenue has doubled. This isn't just automation — it's transformation."
+                  "I was skeptical about AI in recruitment, but BFYautomation proved me wrong. Our team is happier, our clients are getting better candidates faster, and our revenue has doubled. This isn't just automation - it's transformation."
                 </blockquote>
                 <div className="text-right">
                   <cite className="font-semibold text-foreground">
-                    — Sarah Mitchell, Founder, TechRecruit Solutions
+                    - Sarah Mitchell, Founder, TechRecruit Solutions
                   </cite>
                 </div>
               </div>

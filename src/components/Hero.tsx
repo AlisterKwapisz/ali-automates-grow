@@ -8,8 +8,8 @@ const Hero = () => {
           {/* Headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight">
             Get{" "}
-            <span className="text-primary">5–10 Quality Placements</span>{" "}
-            in 90 Days — <span className="text-accent">Guaranteed</span>
+            <span className="text-primary">5-10 Quality Placements</span>{" "}
+            in 90 Days - <span className="text-accent">Guaranteed</span>
           </h1>
 
           {/* Subheadline */}

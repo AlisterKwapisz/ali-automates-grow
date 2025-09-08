@@ -40,7 +40,7 @@ const FinalCTA = () => {
                 Option 2: Direct Pilot
               </h3>
               <p className="text-muted-foreground mb-6">
-                Go straight to results — 5-10 placements in 90 days, guaranteed
+                Go straight to results - 5-10 placements in 90 days, guaranteed
               </p>
               <Button variant="cta" size="lg" className="w-full" asChild>
                 <a href="https://calendly.com/bfyautomation/new-meeting" target="_blank" rel="noopener noreferrer">

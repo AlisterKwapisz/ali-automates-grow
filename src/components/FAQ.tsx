@@ -9,7 +9,7 @@ const FAQ = () => {
   const faqs = [
     {
       question: "How can you guarantee placements?",
-      answer: "We've refined our AI algorithms through hundreds of campaigns. Our system identifies and engages candidates who are most likely to move forward. If we don't hit our targets, we continue working until we do — at no extra cost to you."
+      answer: "We've refined our AI algorithms through hundreds of campaigns. Our system identifies and engages candidates who are most likely to move forward. If we don't hit our targets, we continue working until we do - at no extra cost to you."
     },
     {
       question: "Will this replace my recruiters?",
