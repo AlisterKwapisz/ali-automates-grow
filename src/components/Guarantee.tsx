@@ -1,17 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle, Shield } from "lucide-react";
-
 const Guarantee = () => {
-  const guaranteePoints = [
-    "Real hires that stick (not just interviews)",
-    "Zero additional investment if we don't deliver", 
-    "Full transparency with weekly progress reports",
-    "No long-term contracts — results speak for themselves"
-  ];
-
-  return (
-    <section className="py-20">
+  const guaranteePoints = ["Real hires that stick (not just interviews)", "Zero additional investment if we don't deliver", "Full transparency with weekly progress reports", "No long-term contracts — results speak for themselves"];
+  return <section className="py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
@@ -34,20 +26,16 @@ const Guarantee = () => {
               <div>
                 <h4 className="font-semibold text-lg mb-4">What This Means:</h4>
                 <ul className="space-y-3">
-                  {guaranteePoints.map((point, index) => (
-                    <li key={index} className="flex items-start gap-3">
+                  {guaranteePoints.map((point, index) => <li key={index} className="flex items-start gap-3">
                       <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
                       <span className="text-muted-foreground">{point}</span>
-                    </li>
-                  ))}
+                    </li>)}
                 </ul>
               </div>
 
               <div className="bg-card/50 rounded-lg p-6">
-                <h4 className="font-semibold text-lg mb-4 text-primary">Risk Reversal:</h4>
-                <p className="text-muted-foreground mb-6 italic">
-                  "You literally cannot lose. Either you get the placements you need, or you get more work from us for free."
-                </p>
+                
+                
                 <Button variant="cta" size="lg" className="w-full" asChild>
                   <a href="https://calendly.com/bfyautomation/new-meeting" target="_blank" rel="noopener noreferrer">
                     Start Your Risk-Free Pilot
@@ -58,8 +46,6 @@ const Guarantee = () => {
           </CardContent>
         </Card>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Guarantee;
