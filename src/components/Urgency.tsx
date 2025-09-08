@@ -31,7 +31,7 @@ const Urgency = () => {
               <div className="flex items-center justify-center gap-3 mb-4">
                 <Clock className="w-6 h-6 text-primary" />
                 <h3 className="text-2xl font-bold text-foreground">
-                  3 spots remaining for January 2025
+                  3 spots remaining for {new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}
                 </h3>
               </div>
             </div>
