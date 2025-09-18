@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle, Shield } from "lucide-react";
 const Guarantee = () => {
-  const guaranteePoints = ["Real hires that stick (not just interviews)", "Zero additional investment if we don't deliver", "Full transparency with weekly progress reports", "No long-term contracts - results speak for themselves"];
+  const guaranteePoints = ["Each recruiter gets 1-2 additional placements monthly", "Save 15+ hours per week per recruiter guaranteed", "Full transparency with weekly progress reports", "No long-term contracts - results speak for themselves"];
   return <section id="guarantee" className="py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
@@ -18,7 +18,7 @@ const Guarantee = () => {
           <CardContent className="p-8 lg:p-12">
             <div className="text-center mb-8">
               <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-                "We guarantee 5-10 qualified candidate placements within 90 days, or we continue working at no additional cost until the placements are made."
+                "We guarantee each recruiter will gain 1-2 additional placements per month through automated outreach and screening, or we continue working at no additional cost until results are achieved."
               </h3>
             </div>
 
