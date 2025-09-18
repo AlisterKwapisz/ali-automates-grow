@@ -8,12 +8,12 @@ const Hero = () => {
           {/* Headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight">
             Get{" "}
-            <span className="text-primary">5-10 Quality Placements</span>{" "}
-            in 90 Days - <span className="text-accent">Guaranteed</span>
+            <span className="text-primary">1-2 Extra Placements</span>{" "}
+            Per Recruiter Per Month - <span className="text-accent">Guaranteed</span>
           </h1>
 
           {/* Subheadline */}
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">Stop wasting 15+ hours per week on manual candidate outreach. Our AI-powered recruitment automations find, engage, and nurture top talent while your team focuses on what they do best - closing deals.</p>
+          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">Save 15+ hours per week per recruiter with automated outreach and screening. Our AI-powered recruitment system finds, engages, and nurtures top talent while your team focuses on what they do best - closing deals.</p>
 
           {/* Value Props */}
           <div className="grid md:grid-cols-3 gap-6 mb-8 max-w-4xl mx-auto">
@@ -30,7 +30,7 @@ const Hero = () => {
             <div className="text-center">
               <div className="text-green-500 mb-2">✅</div>
               <div className="font-semibold text-foreground mb-1">Proven Results</div>
-              <div className="text-sm text-muted-foreground">5-10 placements in 90 days</div>
+              <div className="text-sm text-muted-foreground">1-2 extra placements per recruiter monthly</div>
             </div>
           </div>
 
