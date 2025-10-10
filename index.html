@@ -22,28 +22,8 @@
 
   <body>
     <script>
-      (function() {
-        function getStoredTheme() {
-          return localStorage.getItem('theme') || 'system';
-        }
-        
-        function getSystemTheme() {
-          return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        }
-        
-        function applyTheme(theme) {
-          const resolvedTheme = theme === 'system' ? getSystemTheme() : theme;
-          document.documentElement.setAttribute('data-theme', resolvedTheme);
-          document.documentElement.classList.remove('light', 'dark');
-          document.documentElement.classList.add(resolvedTheme);
-        }
-        
-        try {
-          applyTheme(getStoredTheme());
-        } catch (e) {
-          applyTheme('light');
-        }
-      })();
+      document.documentElement.setAttribute('data-theme', 'dark');
+      document.documentElement.classList.add('dark');
     </script>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
