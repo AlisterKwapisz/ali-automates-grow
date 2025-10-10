@@ -6,10 +6,10 @@ const FinalCTA = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-            Ready to Transform Your Recruitment Process?
+            Ready to Transform Your Business with AI Automation?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Stop letting great candidates slip away while your team burns out on manual tasks. Start your risk-free pilot today.
+            Stop letting manual tasks slow down your team. Start your risk-free consultation today.
           </p>
         </div>
 
@@ -21,10 +21,10 @@ const FinalCTA = () => {
                 <FileSearch className="w-8 h-8 text-primary" />
               </div>
               <h3 className="text-2xl font-bold text-foreground mb-4">Option 1: Free AI Consultation</h3>
-              <p className="text-muted-foreground mb-6">Get Your Free Consultation</p>
+              <p className="text-muted-foreground mb-6">Discover exactly how much time and money you could save with AI automation</p>
               <Button variant="outline" size="lg" className="w-full" asChild>
                 <a href="https://calendly.com/bfyautomation/free-consultation" target="_blank" rel="noopener noreferrer">
-                  Get Your Free Recruitment Audit
+                  Get Your Free Consultation
                 </a>
               </Button>
             </CardContent>
@@ -37,14 +37,14 @@ const FinalCTA = () => {
                 <Rocket className="w-8 h-8 text-primary" />
               </div>
               <h3 className="text-2xl font-bold text-foreground mb-4">
-                Option 2: Direct Pilot
+                Option 2: Direct Implementation
               </h3>
               <p className="text-muted-foreground mb-6">
-                Go straight to results - 5-10 placements in 90 days, guaranteed
+                Skip straight to results with our 90-day efficiency guarantee
               </p>
               <Button variant="cta" size="lg" className="w-full" asChild>
                 <a href="https://calendly.com/bfyautomation/new-meeting" target="_blank" rel="noopener noreferrer">
-                  Start Your Risk-Free Pilot Now
+                  Start Your Risk-Free Implementation
                 </a>
               </Button>
             </CardContent>
@@ -54,7 +54,7 @@ const FinalCTA = () => {
         {/* Final Trust Signal */}
         <div className="text-center">
           <p className="text-muted-foreground">
-            Join 50+ agencies already using AI to dominate their markets
+            Join 50+ businesses already using AI to scale operations
           </p>
         </div>
       </div>

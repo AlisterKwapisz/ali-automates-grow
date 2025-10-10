@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle, Shield } from "lucide-react";
 const Guarantee = () => {
-  const guaranteePoints = ["Each recruiter gets 1-2 additional placements monthly", "Save 15+ hours per week per recruiter guaranteed", "Full transparency with weekly progress reports", "No long-term contracts - results speak for themselves"];
+  const guaranteePoints = ["Free AI Consultation to map your automation opportunities", "Custom workflow automation built for your specific needs", "90-day results guarantee - see the time savings or we work for free", "Ongoing optimization to ensure continued efficiency gains"];
   return <section id="guarantee" className="py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
@@ -10,7 +10,7 @@ const Guarantee = () => {
             <Shield className="w-8 h-8 text-primary" />
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-            Our Iron-Clad Placement Guarantee
+            Our Iron-Clad Efficiency Guarantee
           </h2>
         </div>
 
@@ -18,7 +18,7 @@ const Guarantee = () => {
           <CardContent className="p-8 lg:p-12">
             <div className="text-center mb-8">
               <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-                "We guarantee each recruiter will gain 1-2 additional placements per month through automated outreach and screening, or we continue working at no additional cost until results are achieved."
+                "Save 15+ hours per week per team member within 90 days, or we keep working until you do - at no additional cost."
               </h3>
             </div>
 
@@ -37,8 +37,8 @@ const Guarantee = () => {
                 
                 
                 <Button variant="cta" size="lg" className="w-full" asChild>
-                  <a href="https://calendly.com/bfyautomation/new-meeting" target="_blank" rel="noopener noreferrer">
-                    Start Your Risk-Free Pilot
+                  <a href="https://calendly.com/bfyautomation/free-consultation" target="_blank" rel="noopener noreferrer">
+                    Get Your Free Consultation
                   </a>
                 </Button>
               </div>

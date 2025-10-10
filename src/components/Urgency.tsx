@@ -4,10 +4,10 @@ import { CheckCircle, Users, Clock } from "lucide-react";
 
 const Urgency = () => {
   const benefits = [
-    "Free recruitment audit (normally $500)",
-    "Custom candidate persona development", 
-    "90-day placement guarantee",
-    "Weekly optimization calls"
+    "Free AI Consultation & Process Audit ($2,000 value)",
+    "Custom automation roadmap tailored to your business", 
+    "90-day efficiency guarantee with weekly optimization calls",
+    "Priority support and ongoing refinements"
   ];
 
   return (
@@ -20,10 +20,10 @@ const Urgency = () => {
                 <Users className="w-8 h-8 text-primary" />
               </div>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                We Only Take On 5 New Clients Per Month
+                Limited Availability - Only 5 New Clients Per Month
               </h2>
               <p className="text-xl text-muted-foreground mb-8">
-                Why? Because we believe in delivering exceptional results rather than managing hundreds of mediocre campaigns. Each client gets dedicated AI optimization, custom messaging, and white-glove service.
+                To ensure exceptional results, we limit our client intake. Each client gets dedicated AI optimization, custom solutions, and white-glove service throughout implementation.
               </p>
             </div>
 
@@ -52,8 +52,8 @@ const Urgency = () => {
 
             <div className="text-center">
               <Button variant="cta" size="lg" className="text-lg px-8 py-6" asChild>
-                <a href="https://calendly.com/bfyautomation/new-meeting" target="_blank" rel="noopener noreferrer">
-                  Claim Your Spot Now
+                <a href="https://calendly.com/bfyautomation/free-consultation" target="_blank" rel="noopener noreferrer">
+                  Claim Your Free Consultation Now
                 </a>
               </Button>
             </div>

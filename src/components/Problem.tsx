@@ -6,22 +6,22 @@ const Problem = () => {
     {
       icon: Clock,
       stat: "15+ hours/week",
-      description: "wasted on manual candidate outreach"
+      description: "wasted on repetitive data entry and reporting"
     },
     {
       icon: MessageSquare,
       stat: "Endless back-and-forth",
-      description: "trying to engage passive candidates"
+      description: "coordinating manual workflows"
     },
     {
       icon: TrendingDown,
       stat: "Inconsistent results",
-      description: "some weeks great, others terrible"
+      description: "processes depend on individuals"
     },
     {
       icon: DollarSign,
       stat: "Revenue lost",
-      description: "while competitors move faster"
+      description: "while competitors move faster with automation"
     }
   ];
 
@@ -30,10 +30,10 @@ const Problem = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-            Your Best Recruiters Are Drowning in Admin Work
+            Your Team Is Drowning in Manual, Repetitive Tasks
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-12">
-            <strong>The reality:</strong> Your top performers spend 60% of their time on sourcing and follow-ups instead of building relationships and closing placements.
+            <strong>The reality:</strong> Your best people spend 60% of their time on tasks that could be automated, instead of focusing on strategy and client relationships.
           </p>
         </div>
 
@@ -60,7 +60,7 @@ const Problem = () => {
 
         <div className="text-center">
           <p className="text-xl text-muted-foreground italic">
-            "What if your recruiters could focus 100% on relationship-building and deal-closing while AI handles everything else?"
+            "What if your team could focus 100% on high-value work while AI handles the repetitive tasks?"
           </p>
         </div>
       </div>

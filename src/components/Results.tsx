@@ -5,13 +5,13 @@ const Results = () => {
   const businessBenefits = [
     {
       icon: TrendingUp,
-      title: "50-80% more placements",
+      title: "40-60% increase in output",
       description: "with your current team size"
     },
     {
       icon: Clock,
-      title: "15+ hours saved per recruiter per week",
-      description: "freed up for high-value activities"
+      title: "15+ hours saved per person per week",
+      description: "freed up for strategic work"
     },
     {
       icon: DollarSign,
@@ -20,7 +20,7 @@ const Results = () => {
     },
     {
       icon: BarChart,
-      title: "Predictable pipeline",
+      title: "Consistent, predictable workflows",
       description: "you can count on month after month"
     }
   ];
@@ -30,7 +30,7 @@ const Results = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            What Changes When You Partner With BFYautomation
+            What Changes When You Partner With Us
           </h2>
           <p className="text-xl text-muted-foreground">
             Transformative results for your business and your team

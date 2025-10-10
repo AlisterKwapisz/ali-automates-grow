@@ -7,20 +7,20 @@ const Hero = () => {
         <div className="text-center max-w-4xl mx-auto">
           {/* Headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight">
-            Get{" "}
-            <span className="text-primary">1-2 Extra Placements</span>{" "}
-            Per Recruiter Per Month - <span className="text-accent">Guaranteed</span>
+            Save{" "}
+            <span className="text-primary">15+ Hours Per Week</span>{" "}
+            with <span className="text-accent">Custom AI Automation</span>
           </h1>
 
           {/* Subheadline */}
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">Save 15+ hours per week per recruiter with automated outreach and screening. Our AI-powered recruitment system finds, engages, and nurtures top talent while your team focuses on what they do best - closing deals.</p>
+          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">Transform your business operations with AI-powered automation. Focus on strategy and growth while our custom AI solutions handle repetitive tasks, streamline workflows, and scale your output - without hiring.</p>
 
           {/* Value Props */}
           <div className="grid md:grid-cols-3 gap-6 mb-8 max-w-4xl mx-auto">
             <div className="text-center">
               <div className="text-green-500 mb-2">✅</div>
-              <div className="font-semibold text-foreground mb-1">Zero Risk</div>
-              <div className="text-sm text-muted-foreground">We work until placements are made</div>
+              <div className="font-semibold text-foreground mb-1">Free AI Consultation - Zero Risk</div>
+              <div className="text-sm text-muted-foreground">Discover your automation potential</div>
             </div>
             <div className="text-center">
               <div className="text-green-500 mb-2">✅</div>
@@ -29,8 +29,8 @@ const Hero = () => {
             </div>
             <div className="text-center">
               <div className="text-green-500 mb-2">✅</div>
-              <div className="font-semibold text-foreground mb-1">Proven Results</div>
-              <div className="text-sm text-muted-foreground">1-2 extra placements per recruiter monthly</div>
+              <div className="font-semibold text-foreground mb-1">15+ Hours Saved Per Week</div>
+              <div className="text-sm text-muted-foreground">Guaranteed efficiency gains</div>
             </div>
           </div>
 
@@ -48,7 +48,7 @@ const Hero = () => {
 
           {/* Trust Indicator */}
           <p className="text-muted-foreground text-sm">
-            Trusted by 50+ recruitment agencies
+            Trusted by 50+ businesses transforming with AI
           </p>
 
         </div>

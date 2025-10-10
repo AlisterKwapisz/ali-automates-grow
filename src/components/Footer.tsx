@@ -17,7 +17,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold text-primary mb-4">BFYautomation</h3>
             <p className="text-muted-foreground text-sm">
-              Most likely building an automation right now
+              Transforming businesses through custom AI automation solutions. Save time, scale operations, and focus on what matters most.
             </p>
           </div>
 

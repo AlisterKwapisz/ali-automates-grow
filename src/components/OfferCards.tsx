@@ -6,20 +6,20 @@ const OfferCards = () => {
     {
       number: "01",
       icon: Search,
-      title: "Intelligent Sourcing & Profiling",
-      description: "We analyze your top placements to build AI-powered candidate profiles, then automatically source from 15+ platforms including LinkedIn, Indeed, niche job boards, and your ATS."
+      title: "Discovery & Process Mapping",
+      description: "We analyze your workflows to identify automation opportunities and map your processes. This starts with your Free AI Consultation where we uncover time-saving potential specific to your business."
     },
     {
       number: "02",
       icon: MessageCircle,
-      title: "Personalized Outreach at Scale", 
-      description: "Our AI crafts personalized messages that feel human, then automatically follows up with candidates across multiple touchpoints - email, LinkedIn, SMS - until they respond."
+      title: "Custom AI Development", 
+      description: "We build AI agents tailored to your specific processes and integrate them seamlessly into your existing workflows. Every solution is custom-built to solve your unique challenges."
     },
     {
       number: "03",
       icon: UserCheck,
-      title: "Smart Nurturing & Handoff",
-      description: "Interested candidates are automatically scored, nurtured through personalized sequences, and seamlessly handed off to your recruiters only when they're ready to move forward."
+      title: "Deploy & Optimize",
+      description: "Launch your automation and start seeing results immediately. We continuously monitor, refine, and optimize based on real performance data to maximize your efficiency gains."
     }
   ];
 
@@ -28,10 +28,10 @@ const OfferCards = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            The AI-Powered Recruitment System That Never Sleeps
+            Our AI-Powered Automation Process
           </h2>
           <p className="text-xl text-muted-foreground">
-            3-Step Process to Transform Your Recruitment
+            We build custom AI solutions that save time and scale your operations
           </p>
         </div>
 

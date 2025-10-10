@@ -18,12 +18,12 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
+        <SocialProof />
         <TrustStrip />
         <Problem />
         <OfferCards />
         <Guarantee />
         <Results />
-        <SocialProof />
         <FAQ />
         <Urgency />
         <FinalCTA />

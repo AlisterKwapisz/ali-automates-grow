@@ -86,10 +86,10 @@ const Contact = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Ready to get started?
+            Ready to Save 15+ Hours Per Week?
           </h2>
           <p className="text-xl text-muted-foreground">
-            Choose how you'd like to connect with us
+            Book your Free AI Consultation today
           </p>
         </div>
 
@@ -98,7 +98,7 @@ const Contact = () => {
           <div className="space-y-6 w-full max-w-md">
             <div className="grid gap-4">
               <Button variant="cta" size="lg" className="w-full text-lg py-6" asChild>
-                <a href="https://calendly.com/bfyautomation/new-meeting" target="_blank" rel="noopener noreferrer">
+                <a href="https://calendly.com/bfyautomation/free-consultation" target="_blank" rel="noopener noreferrer">
                   <Calendar className="w-5 h-5 mr-2" />
                   Book a call
                 </a>
