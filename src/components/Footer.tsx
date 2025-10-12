@@ -1,5 +1,3 @@
-import { ThemeToggle } from "@/components/ThemeToggle";
-
 const Footer = () => {
   const links = [
     { name: "Work", href: "#work" },
@@ -24,7 +22,7 @@ const Footer = () => {
           {/* Links & Theme */}
           <div>
             <h4 className="font-semibold mb-4">Quick Links</h4>
-            <ul className="space-y-2 mb-6">
+            <ul className="space-y-2">
               {links.map((link) => (
                 <li key={link.name}>
                   <a
@@ -36,10 +34,6 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-            <div className="flex items-center space-x-2">
-              <span className="text-sm font-medium">Theme:</span>
-              <ThemeToggle variant="footer" showText />
-            </div>
           </div>
         </div>
 
